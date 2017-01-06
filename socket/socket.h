@@ -1,6 +1,6 @@
 /*********************************************************************
  * Socket Class
- * @Filename:       socket.h
+ * @Filename: socket.h
  * @Create:         Jack Lee@2016.08.18
  * @CreateEmail:    lizhongjie@cvte.com
  * @Modify:         Jack Lee@2016.08.25
