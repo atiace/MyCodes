@@ -1,6 +1,6 @@
 /*********************************************************************
- * Main
- * @Filename: main.cc
+ * Thread C++11
+ * @Filename: thread_c++11.cc
  * @Create:         Jack Lee@2017.01.04
  * @CreateEmail:    lizhongjie@cvte.com
  * @Modify:         Jack Lee@2017.01.06
@@ -51,6 +51,8 @@ void child(std::string const& s) {
 }
 
 
+// g++ -std=c++11 -pthread main.cc -o main
+// g++ -std=gnu++11 -pthread main.cc -o main
 int main(int argc, char* argv[]) {
     std::string common_string = "Hello World!!!";
     unsigned int core_number = std::thread::hardware_concurrency();
